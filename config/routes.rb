@@ -14,7 +14,7 @@ Loginapp::Application.routes.draw do
   devise_for :users
 
   resources :posts
-  root :to => 'home#index'
+  root :to => 'admin#login'
 
   get "home/index"
 
