@@ -9,6 +9,8 @@ gem 'devise'
 gem 'activeadmin'
 gem 'rename'
 gem 'sqlite3'
+gem 'execjs'
+gem 'therubyracer'
 #gem 'ruby-debug19'
 
 
