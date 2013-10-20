@@ -8,7 +8,7 @@ gem 'rails', '3.2.13'
 gem 'devise'
 gem 'activeadmin'
 gem 'rename'
-
+gem 'sqlite3'
 #gem 'ruby-debug19'
 
 
@@ -50,6 +50,6 @@ end
 
 
 group :production do
-  gem 'pg'
+#  gem 'pg'
   gem 'thin'
 end
